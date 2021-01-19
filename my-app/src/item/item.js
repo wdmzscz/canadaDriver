@@ -21,7 +21,7 @@ export default class Item extends Component{
                     <div>{name}</div>
                 </Link>
                 <div>{username}</div>
-                <div>{email}</div>
+                <a href={`mailto:${email}`}>{email}</a>
             </li>
             </div>
         ) 
